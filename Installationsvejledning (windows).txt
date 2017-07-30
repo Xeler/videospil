@@ -1,0 +1,11 @@
+Indlæs db.sql
+Rediger databaseinformationen i index.js, således at den forbinder til din egen MySQL server
+Download nyeste version af node.js (husk at tilføje node til PATH)
+Åben komandoprompt som adminstrator
+Gå til mappen som indeholder dette projekt (C:\..\..\..\cm\)
+Kør kommandoen for at sikre alle moduler er installeret -- dette kræver muligvis adminstrator rettigheder
+    npm install
+Start herefter serveren ved at køre kommandoen
+    node index.js
+Serveren oprettes på port 3000; den kan således indlæses på
+http://localhost:3000/
